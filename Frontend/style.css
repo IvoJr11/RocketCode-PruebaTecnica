@@ -1,0 +1,25 @@
+.taskCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  width: 180px;
+  padding: 20px 24px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background: linear-gradient(112deg, rgba(46, 50, 51, 0.904) 11.4%, rgba(56, 56, 48, 0.253) 70.2%);
+}
+
+.taskCard h5 {
+  color: white;
+}
+
+.taskCard p, small {
+  color: rgba(126, 126, 126, 0.63);
+}
+
+.taskCard:hover {
+  border: .1px solid rgba(238, 229, 229, 0.2);
+  scale: 1.01;
+  transition: all 200ms linear;
+}
